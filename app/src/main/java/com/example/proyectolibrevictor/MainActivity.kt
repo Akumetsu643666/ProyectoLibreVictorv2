@@ -32,5 +32,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, ModifyListActivity::class.java)
             startActivity(intent)
         }
+        val btnIrOnline = findViewById<Button>(R.id.btnIrOnline)
+        btnIrOnline.setOnClickListener {
+            startActivity(Intent(this, OnlineGamesActivity::class.java))
+        }
     }
+
 }

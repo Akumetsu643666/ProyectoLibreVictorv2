@@ -6,7 +6,6 @@
     android:padding="24dp"
     android:gravity="center">
 
-
     <ImageView
         android:id="@+id/ivLogoPrincipal"
         android:layout_width="120dp"
@@ -19,32 +18,40 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="BDGames Victor"
+        android:text="ProyectoLibreVictor"
         android:textSize="26sp"
         android:textStyle="bold"
-        android:layout_marginBottom="40dp"/>
+        android:layout_marginBottom="32dp"/>
 
     <Button
         android:id="@+id/btnIrAgregar"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="56dp"
         android:text="Agregar Juego"
         android:textSize="16sp"
-        android:layout_marginBottom="16dp"/>
+        android:layout_marginBottom="12dp"/>
 
     <Button
         android:id="@+id/btnIrListado"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="56dp"
         android:text="Ver Lista de Juegos"
         android:textSize="16sp"
-        android:layout_marginBottom="16dp"/>
+        android:layout_marginBottom="12dp"/>
 
     <Button
         android:id="@+id/btnIrModificar"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="56dp"
         android:text="Modificar Juegos"
+        android:textSize="16sp"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btnIrOnline"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Ofertas Online"
         android:textSize="16sp"/>
 
 </LinearLayout>
